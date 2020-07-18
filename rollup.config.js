@@ -31,7 +31,7 @@ const onwarn = (warning, _onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && 
   || warningIsIgnored(warning)
   || console.warn(warning.toString())
 
-const extensions = ['.ts', '.js', '.svelte']
+const extensions = ['.ts', '.js', '.svelte', '.mjs']
 
 export default {
   input: 'src/client.ts',
