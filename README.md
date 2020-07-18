@@ -13,7 +13,6 @@ https://github.com/Zimtir/ST-template
 ![Docker Stars](https://img.shields.io/docker/stars/9e3u2f0b1/ST-template?logo=Docker)
 
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/rollup?color=green&logo=Rollup)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/sapper?color=green)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/svelte?color=green)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/eslint?color=green)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/prettier?color=green)
