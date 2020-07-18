@@ -1,3 +1,4 @@
+on: push
 name: npm build, lint, test and publish
 jobs:
   build-and-publish:
