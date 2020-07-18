@@ -6,14 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: npm install
-        uses: actions/npm@master
-        with:
-          args: install
-      - name: npm lint
-        uses: actions/npm@master
-        with:
-          args: run eslint
+      - uses: actions/setup-node@v1
+      - run: npm install
+      - run: npm run eslint
       - name: docker build
         uses: actions/docker/cli@master
         with:
