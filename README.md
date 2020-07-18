@@ -28,6 +28,7 @@ https://github.com/Zimtir/ST-template
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 - [SASS](https://sass-lang.com/documentation)
+- [GitHub Actions](https://docs.github.com/en/actions)
 
 ## Usage
 

@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - master
-      - ci/docker
 name: build and publish
 jobs:
   build-and-publish:
