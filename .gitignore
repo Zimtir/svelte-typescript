@@ -1,4 +1,6 @@
-node_modules
+/node_modules/
+public/assets/css/f*.css
+public/assets/css/animation.css
+public/assets/font/
 public/bundle.*
-package-lock.json
-.rpt2_cache
+.eslintcache
