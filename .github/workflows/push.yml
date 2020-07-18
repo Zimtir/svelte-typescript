@@ -9,16 +9,10 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install
       - run: npm run eslint
-      - name: docker build
-        uses: actions/docker/cli@master
+      - name: docker build and push
+        uses: docker/build-push-action@v1
         with:
-          args: build -t 9e3u2f0b1/st-template:latest .
-      - name: docker login
-        uses: actions/docker/login@master
-        env:
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-      - name: docker push
-        uses: actions/docker/cli@master
-        with:
-          args: push 9e3u2f0b1/st-template:latest
+          username: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKER_USERNAME }}
+          repository: 9e3u2f0b1/st-template
+          tags: latest
