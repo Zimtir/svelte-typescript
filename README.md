@@ -10,8 +10,8 @@ https://github.com/Zimtir/ST-template
 [![code formatting: eslint](https://img.shields.io/badge/code%20linter-eslint-brightgreen?style=flat-square)](https://github.com/eslint/eslint)
 
 ![GitHub Build Action](https://github.com/Zimtir/ST-template/workflows/build%20and%20publish/badge.svg)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/9e3u2f0b1/ST-template/latest?logo=Docker)
-![Docker Stars](https://img.shields.io/docker/stars/9e3u2f0b1/ST-template?logo=Docker)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/9e3u2f0b1/st-template/latest?logo=Docker)
+![Docker Stars](https://img.shields.io/docker/stars/9e3u2f0b1/st-template?logo=Docker)
 
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/rollup?color=green&logo=Rollup)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/Zimtir/ST-template/dev/svelte?color=green)
